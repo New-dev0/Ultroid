@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client,filters
 from . import *
-from pytgcalls import GroupCalls
+from pytgcalls import GroupCall
 import logging
 logging.basicConfig(level=logging.INFO)
 
