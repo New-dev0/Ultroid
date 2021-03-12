@@ -4,6 +4,8 @@ carbonnow
 cairosvg
 emoji
 GitPython
+pyrogram
+tgcrypto
 googletrans==4.0.0rc1
 heroku3
 imutils
@@ -29,3 +31,4 @@ youtube-search-python
 google-api-python-client==1.7.11
 oauth2client==4.1.3
 httplib2==0.13.1
+pytgcalls
