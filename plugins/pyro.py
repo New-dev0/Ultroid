@@ -1,5 +1,5 @@
 import os
-from pyrogram import Client
+from pyrogram import Client,filters
 from . import *
 
 import logging
@@ -14,5 +14,8 @@ Client = Client("PYROCLIENT",api_id=Var.API_ID,api_hash=Var.API_HASH,
                phone_code = LCODE,
                password = VPASS)
 
-Client.start()
-Client.send_message("me","Hi")
+@Client.on_message(filters.outgoing & filters.command(["pyro"],"."))
+async def ree(client,message):
+  await message.reply_text("Pyrogram")
+  
+Client.run()
