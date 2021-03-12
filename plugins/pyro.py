@@ -14,6 +14,5 @@ Client = Client("PYROCLIENT",api_id=Var.API_ID,api_hash=Var.API_HASH,
                phone_code = LCODE,
                password = VPASS)
 
+Client.start()
 Client.send_message("me","Hi")
-
-Client.run()
