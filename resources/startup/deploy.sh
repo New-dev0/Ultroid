@@ -69,7 +69,7 @@ echo '
         •• Cloning Repository
 '
 
-git clone https://github.com/Teamultroid/Ultroid.git /root/TeamUltroid/
+git clone https://github.com/New-dev0/Ultroid.git /root/TeamUltroid/
 
 
 echo '
